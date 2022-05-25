@@ -3,16 +3,14 @@
 * Template Author: Untree.co
 * Template License: https://creativecommons.org/licenses/by/3.0/
 * Author URI: https://untree.co/
-
 * Twitter: https://twitter.com/Untree_co
 * Facebook: https://web.facebook.com/Untree.co/
+* Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
+* Copyright 2011-2020 The Bootstrap Authors
+* Copyright 2011-2020 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 */
-/*!
- * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -9839,99 +9837,167 @@ a {
         transform: translate(-50%, -50%); }
       .site-footer .social li a:hover {
         background: #000;
-        color: #fff; }
+        color: #fff; 
+      }
 
-        
-        
-/* Scrool To Top btn */
- #back-to-top-btn {
-  display: flex;
-  position: fixed;
-  bottom: 17px;
-  right: -10px;
-  z-index: 100;
-  background-color: #006eff;
-  color: white;
-  cursor: pointer;
-  border-radius: 9px;
-  width: 65px;
-  height: 60px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-size: x-large;
-   box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.15);
+
+/* My CSS */
+@media screen and (min-width: 991px){
+  img#bannerImg {
+    position: absolute;
+    top: 106px;
+    z-index: -1;
+}
+h1#bannerTxtLineOne {
+    font-size: xx-large;
+    margin-bottom: 0;
+    line-height: 0;
+    position: relative;
+    top: 80px;
+}
+h1#bannerTxtLineTwo {
+    font-size: xx-large;
+    font-size: xx-large;
+    top: 26px;
+    position: relative;
+    width: 322px;
+    line-height: 45px;
+  }
+}
+
+h1#bannerTxtLineOne{
+  margin-bottom: 0; 
+  line-height: 0;
+}
+
+@media screen and (max-width: 500px){
+    h1#bannerTxtLineOne {
+      position: relative;
+      top: -124px;
+      left: -147px;
+      text-align: center;
+      font-size: large;
+      font-family: 'icomoon';
+      line-height: 15px;
+    }
+    h1#bannerTxtLineTwo {
+      position: relative;
+      top: -139px;
+      left: 83px;
+      text-align: center;
+      font-size: large;
+      font-family: 'icomoon';
+      line-height: 15px;
+    }
+    
+    p#aboutMagBtn {
+      position: relative;
+      top: -50px;
+      left: 18px;
+      font-size: small;
+    }
+    a.btn.btn-primary-outline.white.me-4 {
+      font-size: smaller;
+      padding: 10px;
+    }
+
+  .bannerBottomTxt {
+    position: relative;
+    top: 68px;
+    background-color: rgba(155, 155, 155, 0.3);
+    border: 10px solid rgb(155 155 155 / 0%);
+    border-radius: 6px;
+  }
+  p.text-white.aos-init.aos-animate {
+    font-size: small;
+    margin-bottom: 0;
+  }
+  h1#bannerTxtLineOne.hdtxt{
+    left: -1px;
+  }
+}
+
+#back-to-top-btn {
+display: flex;
+position: fixed;
+bottom: 17px;
+right: -10px;
+z-index: 100;
+background-color: #006eff;
+color: white;
+cursor: pointer;
+border-radius: 9px;
+width: 65px;
+height: 60px;
+text-align: center;
+align-items: center;
+justify-content: center;
+font-size: x-large;
+box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.15);
 }
 
 #back-to-top-btn:hover {
-  border: 1px solid #378dff;
-  background-color: #378dff;
-  color: white;
-  transition: 0.5s ease-in-out;
-  width: 85px;
+border: 1px solid #378dff;
+background-color: #378dff;
+color: white;
+transition: 0.5s ease-in-out;
+width: 85px;
 }
 
 #wa-btn {
-  display: flex;
-  position: fixed;
-  bottom: 86px;
-  right: -10px;
-  z-index: 100;
-  background-color: #128C7E;
-  color: white;
-  cursor: pointer;
-  border-radius: 9px;
-  width: 65px;
-  height: 60px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-size: x-large;
-  box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.15);
+display: flex;
+position: fixed;
+bottom: 86px;
+right: -10px;
+z-index: 100;
+background-color: #128C7E;
+color: white;
+cursor: pointer;
+border-radius: 9px;
+width: 65px;
+height: 60px;
+text-align: center;
+align-items: center;
+justify-content: center;
+font-size: x-large;
+box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.15);
 }
 
 #wa-btn:hover {
-  border: 1px solid #25D366;
-  background-color: #25D366;
-  color: white;
-  transition: 0.5s ease-in-out;
-  width: 85px;
+border: 1px solid #25D366;
+background-color: #25D366;
+color: white;
+transition: 0.5s ease-in-out;
+width: 85px;
 }
 
-/* #wa-btn {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  z-index: 100;
-} */
-
 #insta-btn {
-  display: flex;
-  position: fixed;
-  bottom: 155px;
-  right: -10px;
-  z-index: 100;
-  background-color: #bc2a8d;
-  color: white;
-  cursor: pointer;
-  border-radius: 9px;
-  width: 65px;
-  height: 60px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-size: x-large;
-  box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.15);
+display: flex;
+position: fixed;
+bottom: 155px;
+right: -10px;
+z-index: 100;
+background-color: #bc2a8d;
+color: white;
+cursor: pointer;
+border-radius: 9px;
+width: 65px;
+height: 60px;
+text-align: center;
+align-items: center;
+justify-content: center;
+font-size: x-large;
+box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.15);
 }
 
 #insta-btn:hover {
-  border: 1px solid #cd486b;
-  background-color: #cd486b;
-  color: white;
-  transition: 0.5s ease-in-out;
-  width: 85px;
+border: 1px solid #cd486b;
+background-color: #cd486b;
+color: white;
+transition: 0.5s ease-in-out;
+width: 85px;
 }
 
 .open {
-  max-height: 1000px;
+max-height: 1000px;
 }
