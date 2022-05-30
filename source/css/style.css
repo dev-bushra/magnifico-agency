@@ -9842,49 +9842,20 @@ a {
 
 
 /* My CSS */
-@media screen and (min-width: 991px){
-  img#bannerImg {
-    position: absolute;
-    top: 106px;
-    z-index: -1;
-}
-h1#bannerTxtLineOne {
-    font-size: xx-large;
-    margin-bottom: 0;
-    line-height: 0;
-    position: relative;
-    top: 80px;
-}
-h1#bannerTxtLineTwo {
-    font-size: xx-large;
-    font-size: xx-large;
-    top: 26px;
-    position: relative;
-    width: 322px;
-    line-height: 45px;
-  }
-}
-
-h1#bannerTxtLineOne{
-  margin-bottom: 0; 
-  line-height: 0;
-}
 
 @media screen and (max-width: 500px){
+  .bannerTxt {
+    text-align: center;
+    position: relative;
+    top: -109px;
+  }
     h1#bannerTxtLineOne {
-      position: relative;
-      top: -124px;
-      left: -147px;
-      text-align: center;
       font-size: large;
       font-family: 'icomoon';
       line-height: 15px;
+      padding-bottom: 12px;
     }
     h1#bannerTxtLineTwo {
-      position: relative;
-      top: -139px;
-      left: 83px;
-      text-align: center;
       font-size: large;
       font-family: 'icomoon';
       line-height: 15px;
@@ -9916,6 +9887,34 @@ h1#bannerTxtLineOne{
     left: -1px;
   }
 }
+@media screen and (min-width: 991px){
+  img#bannerImg {
+    position: absolute;
+    top: 106px;
+    z-index: -1;
+}
+h1#bannerTxtLineOne {
+    font-size: xx-large;
+    margin-bottom: 0;
+    line-height: 0;
+    position: relative;
+    top: 80px;
+}
+h1#bannerTxtLineTwo {
+    font-size: xx-large;
+    font-size: xx-large;
+    top: 95px;
+    position: relative;
+    width: 322px;
+    line-height: 45px;
+  }
+}
+
+h1#bannerTxtLineOne{
+  margin-bottom: 0; 
+  line-height: 0;
+}
+
 
 #back-to-top-btn {
 display: flex;
