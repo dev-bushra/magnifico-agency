@@ -9843,6 +9843,7 @@ a {
 
 /* My CSS */
 
+/* Mobile Screens */
 @media screen and (max-width: 500px){
   .bannerTxt {
     text-align: center;
@@ -9884,7 +9885,9 @@ a {
     margin-bottom: 0;
   }
   h1#bannerTxtLineOne.hdtxt{
-    left: -1px;
+    text-align: center;
+    position: relative;
+    top: -95px;
   }
 }
 @media screen and (min-width: 991px){
@@ -9908,6 +9911,28 @@ h1#bannerTxtLineTwo {
     width: 322px;
     line-height: 45px;
   }
+
+  .bannerBottomTxt2 {
+    width: 223px;
+    position: relative;
+    top: -153px;
+    left: -12px;
+    text-align: center;
+}
+
+.left-10{
+  left: 10px;
+}
+.left-16{
+  left: 16px;
+}
+.left-17{
+  left: 17px;
+}
+.left-29{
+  left: 29px;
+}
+
 }
 
 h1#bannerTxtLineOne{
