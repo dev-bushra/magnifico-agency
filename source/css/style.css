@@ -9924,13 +9924,38 @@ h1#bannerTxtLineTwo {
   left: 10px;
 }
 .left-16{
-  left: 16px;
+  left: 18px;
 }
 .left-17{
   left: 17px;
 }
 .left-29{
-  left: 29px;
+  left: 31px;
+}
+
+}
+
+/* v-larg */
+@media screen and (min-width: 1400px) and (max-width: 2000px){
+.bannerBottomTxt2 {
+    width: 223px;
+    position: relative;
+    top: -63px;
+    left: -324px;
+    text-align: center;
+}
+
+.left-about {
+  left: 41px;
+}
+.left-contact {
+  left: 30px;
+}
+.left-services {
+  left: 16px;
+}
+.left-portfolio {
+  left: 25px;
 }
 
 }
